@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+  background: #B2D1F9;
+  color: rgb(5, 1, 1);
+  font-family: "Arial";
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: rgb(12, 11, 11);
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+}
+.not-found {
+  text-align: center;
+}
+.not-found a{
+  color: #4979ff;
+  text-decoration: underline;
+}
+
+.table {
+	width:100%;
+	border:1px solid;
+}
